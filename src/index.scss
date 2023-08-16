@@ -1,0 +1,9 @@
+$maxWidth: 512px;
+
+body {
+    background-color: rgb(42, 120, 237);
+    color: white;
+    max-width: $maxWidth;
+    margin: 0 auto;
+}
+
