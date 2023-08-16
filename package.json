@@ -1,0 +1,27 @@
+{
+  "name": "getcourse-templates",
+  "version": "1.0.0",
+  "description": "This is a templates for the Get Course system",
+  "scripts": {
+    "dev": "webpack serve --open --mode=development",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.88.2",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "sass": "^1.65.1",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
